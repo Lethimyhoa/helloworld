@@ -34,6 +34,7 @@
             // 
             // lblHelloWorld
             // 
+            this.lblHelloWorld.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblHelloWorld.AutoSize = true;
             this.lblHelloWorld.Font = new System.Drawing.Font("Segoe Script", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHelloWorld.ForeColor = System.Drawing.Color.Blue;
@@ -45,6 +46,7 @@
             // 
             // btnShow
             // 
+            this.btnShow.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnShow.Location = new System.Drawing.Point(155, 226);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(75, 23);
@@ -60,6 +62,7 @@
             this.ClientSize = new System.Drawing.Size(394, 261);
             this.Controls.Add(this.btnShow);
             this.Controls.Add(this.lblHelloWorld);
+            this.MinimumSize = new System.Drawing.Size(380, 270);
             this.Name = "frmHelloWorld";
             this.Text = "HelloWorld";
             this.Load += new System.EventHandler(this.Form1_Load);
